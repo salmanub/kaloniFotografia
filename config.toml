@@ -1,0 +1,25 @@
+# The URL the site will be built for
+base_url = "https://kalonifotografia.com"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = false
+
+[extra]
+pwa = true
+
+[extra.manifest]
+name = "Nom de la teva aplicació"
+short_name = "Nom curt de la teva aplicació"
+description = "Descripció de la teva aplicació"
+start_url = "/"
+display = "standalone"
+background_color = "#ffffff"
+theme_color = "#000000"
